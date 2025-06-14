@@ -1,0 +1,10 @@
+resume-gpt-prototype/
+│
+├── client/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── server/
+    ├── server.js
+    └── .env
