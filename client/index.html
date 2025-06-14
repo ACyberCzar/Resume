@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume GPT Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Custom Resume & Cover Letter Generator</h1>
+
+    <form id="jobForm">
+      <label for="resume">Paste Your Resume:</label>
+      <textarea id="resume" rows="10"></textarea>
+
+      <label for="jobDesc">Paste Job Description:</label>
+      <textarea id="jobDesc" rows="10"></textarea>
+
+      <label for="pageCount">Resume Length:</label>
+      <select id="pageCount">
+        <option value="1">1 Page</option>
+        <option value="2">2 Pages</option>
+      </select>
+
+      <button type="submit">Generate</button>
+    </form>
+
+    <div id="results">
+      <h2>Generated Resume:</h2>
+      <pre id="resumeOutput"></pre>
+
+      <h2>Generated Cover Letter:</h2>
+      <pre id="coverLetterOutput"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
